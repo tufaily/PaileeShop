@@ -44,7 +44,7 @@ const App = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator screenOptions={{headerShown: false}}>
-        <Stack.Screen name="Utama" component={Tabs} />
+        <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="Produk" component={Product} />
         <Stack.Screen name="Profil" component={Profile} />
       </Stack.Navigator>
