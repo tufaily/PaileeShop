@@ -16,11 +16,12 @@ class Home extends Component {
     this.state = {
       input: '',
     };
-  }
+  }};
   render() {
-    return (
+    return ()
       <ScrollView style={gaya.container}>
-        <View
+        }
+      <View
           style={{
             flexDirection: 'row',
             justifyContent: 'space-between',
